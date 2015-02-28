@@ -1,0 +1,5 @@
+<% if params[:name].blank? or params[:adjective].blank? %>
+  <h2><%= @text %></h2>
+<% else %>
+<%= params[:name] %> is so <%= params[:adjective] %>
+<% end %>
